@@ -105,7 +105,7 @@ export default function Component() {
                 </Sheet>
             </header>
             <main className="flex-1">
-                <section className="bg-primary py-24 px-6 text-primary-foreground">
+                <section className="bg-gradient-to-b from-primary to-white py-24 px-6 text-primary-foreground">
                     <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
                         <div>
                             <h1 className="text-4xl font-bold mb-4">
@@ -119,7 +119,7 @@ export default function Component() {
                             </p>
                             <Link
                                 href="#"
-                                className="inline-flex items-center justify-center rounded-md bg-primary-foreground px-6 py-3 text-primary font-medium  focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                                className="inline-flex items-center justify-center rounded-md bg-primary-foreground px-6 py-3 text-primary font-medium hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
                                 prefetch={false}
                             >
                                 Explore Our Services
