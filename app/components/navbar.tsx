@@ -119,7 +119,7 @@ export default function Component() {
                             </p>
                             <Link
                                 href="#"
-                                className="inline-flex items-center justify-center rounded-md bg-primary-foreground px-6 py-3 text-primary font-medium hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                                className="inline-flex items-center justify-center rounded-md bg-primary-foreground px-6 py-3 text-primary font-medium   focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
                                 prefetch={false}
                             >
                                 Explore Our Services
