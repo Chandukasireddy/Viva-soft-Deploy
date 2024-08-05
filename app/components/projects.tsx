@@ -5,7 +5,7 @@ import hersection from "@/public/herosection.jpg";
 
 export default function Projects() {
     return (
-        <section className="py-16 px-6 bg-orange-50">
+        <section className="py-16 px-6 bg-orange-50" id="Projects">
             <div className="max-w-7xl mx-auto">
                 <h2 className="text-3xl font-bold mb-8">Recent Projects</h2>
                 <div className="grid md:grid-cols-3 gap-8">

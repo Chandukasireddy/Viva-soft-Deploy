@@ -3,53 +3,61 @@ import Image from "next/image";
 import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { JSX, SVGProps } from "react";
-
+import logo from "@/public/Viva Soft.svg"
 
 export default function Navbar() {
     return (
-        <div className="flex flex-col ">
-            <header className="bg-primary text-primary-foreground py-6 px-6 md:px-20 lg:px-40 flex items-center justify-between">
-                <Link
-                    href="#"
-                    className="flex items-center gap-2"
-                    prefetch={false}
-                >
-                    <span className="text-xl font-bold">
-                        VIVA Soft Technologies
-                    </span>
-                </Link>
-                <nav className="hidden md:flex gap-6">
+        <div className="flex flex-col shadow-lg">
+            <header className="text-black py-6 px-6 md:px-20 lg:px-40 flex items-center justify-between ">
+                <div className="flex flex-row gap-4">
+                    <Image
+                        src={logo}
+                        alt="vivasoft logo"
+                        className="w-12 h-12"
+                    />
                     <Link
                         href="#"
-                        className="hover:underline underline-offset-4"
+                        className="flex items-center gap-2"
+                        prefetch={false}
+                    >
+                        <span className="text-xl font-bold">
+                            VIVA Soft Technologies
+                        </span>
+                    </Link>
+                </div>
+                <nav className="hidden md:flex gap-6 font-bold">
+                    <Link
+                        href="#"
+                        className="hover:underline underline-offset-4 decoration-[#EB5E28] "
                         prefetch={false}
                     >
                         Home
                     </Link>
+
                     <Link
-                        href="#"
-                        className="hover:underline underline-offset-4"
-                        prefetch={false}
-                    >
-                        About
-                    </Link>
-                    <Link
-                        href="#"
-                        className="hover:underline underline-offset-4"
+                        href="#Services"
+                        className="hover:underline underline-offset-4 decoration-[#EB5E28]"
                         prefetch={false}
                     >
                         Services
                     </Link>
                     <Link
-                        href="#"
-                        className="hover:underline underline-offset-4"
+                        href="#Projects"
+                        className="hover:underline underline-offset-4 decoration-[#EB5E28]"
                         prefetch={false}
                     >
                         Projects
                     </Link>
                     <Link
-                        href="#"
-                        className="hover:underline underline-offset-4"
+                        href="#Testimonials"
+                        className="hover:underline underline-offset-4 decoration-[#EB5E28]"
+                        prefetch={false}
+                    >
+                        Testimonials
+                    </Link>
+                    <Link
+                        href="#Contactus"
+                        className="hover:underline underline-offset-4 decoration-[#EB5E28]"
                         prefetch={false}
                     >
                         Contact Us

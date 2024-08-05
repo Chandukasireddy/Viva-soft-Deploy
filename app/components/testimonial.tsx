@@ -11,7 +11,7 @@ import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 export default function Testimonail() {
     return (
-        <section className="py-16 px-4 bg-orange-50 ">
+        <section className="py-16 px-4 bg-orange-50 " id="Testimonials">
             <div className="max-w-xs md:max-w-2xl lg:max-w-6xl mx-auto">
                 <h2 className="text-3xl font-bold mb-8">
                     What Our Clients Say

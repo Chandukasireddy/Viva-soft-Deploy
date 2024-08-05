@@ -7,36 +7,38 @@ import { SVGProps } from "react";
 
 export default function Contactus() {
     return (
-        <div className="overflow-x-hidden">
-            <div className=" bg-orange-50 ml-[-50%] w-[200%] rounded-b-[100%]">
-                <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto py-12 px-4 ">
-                    <div className="flex justify-center items-center">
+        <div className="overflow-x-hidden" id="Contactus">
+            <div className="bg-orange-50 rounded-b-[10%] lg:rounded-b-[30%] px-4 py-12">
+                <div className="max-w-6xl mx-auto grid gap-8 md:grid-cols-2">
+                    <div className="flex flex-col justify-center items-center text-center md:items-start md:text-left">
                         <div className="space-y-4">
-                            <h1 className="text-4xl font-bold">Get in Touch</h1>
+                            <h1 className="text-3xl md:text-4xl font-bold">
+                                Get in Touch
+                            </h1>
                             <p className="text-muted-foreground">
                                 Have a question or want to work together? Fill
                                 out the form and well get back to you as soon as
                                 possible.
                             </p>
-                            <div className="grid gap-4">
-                                <div className="flex items-center gap-2">
+                            <div className="space-y-4">
+                                <div className="flex items-center gap-2 justify-center md:justify-start">
                                     <PhoneIcon className="h-6 w-6 text-primary" />
                                     <span>+1 (555) 555-5555</span>
                                 </div>
-                                <div className="flex items-center gap-2">
+                                <div className="flex items-center gap-2 justify-center md:justify-start">
                                     <MailIcon className="h-6 w-6 text-primary" />
                                     <span>hello@example.com</span>
                                 </div>
-                                <div className="flex items-center gap-2">
+                                <div className="flex items-center gap-2 justify-center md:justify-start">
                                     <MapPinIcon className="h-6 w-6 text-primary" />
                                     <span>123 Main St, Anytown USA</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <Card className="pt-5">
+                    <Card className="w-full">
                         <CardContent>
-                            <form className="grid gap-4">
+                            <form className="grid gap-4 pt-4">
                                 <div className="grid gap-2">
                                     <Label htmlFor="name">Name</Label>
                                     <Input

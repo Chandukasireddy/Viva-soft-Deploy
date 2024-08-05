@@ -13,25 +13,29 @@ export default function Herosection() {
                         <div className="w-full px-4 lg:w-5/12">
                             <div className="hero-content">
                                 <h1 className="mb-5 text-4xl font-bold !leading-[1.208] text-dark dark:text-white sm:text-[42px] lg:text-[40px] xl:text-5xl">
-                                    Kickstart Startup Website with TailGrids
+                                    Kickstart Journey with{" "}
+                                    <span className="text-[#EB5E28]">
+                                        Viva Soft
+                                    </span>
                                 </h1>
                                 <p className="mb-8 max-w-[480px] text-base text-body-color dark:text-dark-6">
-                                    With TailGrids, business and students thrive
-                                    together. Business can perfectly match their
-                                    staffing to changing demand throughout the
-                                    dayed.
+                                    Viva Soft Technologies provides tailored IT
+                                    solutions to enhance business efficiency and
+                                    growth. Our services include software
+                                    development, IT consulting, and technology
+                                    integration.
                                 </p>
                                 <ul className="flex flex-wrap items-center">
                                     <li>
                                         <a
                                             href="/#"
-                                            className="inline-flex items-center justify-center rounded-md bg-primary px-6 py-3 text-center text-base font-medium text-white hover:bg-blue-dark lg:px-7"
+                                            className="inline-flex items-center justify-center rounded-md bg-[#EB5E28] px-6 py-3 text-center text-base font-medium text-white hover:bg-blue-dark lg:px-7"
                                         >
                                             Get Started
                                         </a>
                                     </li>
                                 </ul>
-                                <div className="clients pt-16">
+                                <div className="clients pt-10">
                                     <h6 className="mb-6 flex items-center text-xs font-normal text-body-color dark:text-dark-6">
                                         Some Of Our Clients
                                         <span className="ml-3 inline-block h-px w-8 bg-body-color"></span>
@@ -41,17 +45,17 @@ export default function Herosection() {
                                         <Image
                                             src={hersection}
                                             alt="hero"
-                                            className="w-16"
+                                            className="w-16 rounded-xl"
                                         />
                                         <Image
                                             src={hersection}
                                             alt="hero"
-                                            className="w-16"
+                                            className="w-16 rounded-xl"
                                         />
                                         <Image
                                             src={hersection}
                                             alt="hero"
-                                            className="w-16"
+                                            className="w-16 rounded-xl"
                                         />
                                     </div>
                                 </div>
@@ -64,7 +68,7 @@ export default function Herosection() {
                                     <Image
                                         src={hersection}
                                         alt="hero"
-                                        className="max-w-full lg:ml-auto"
+                                        className="max-w-full lg:ml-auto rounded-xl"
                                     />
                                     <span className="absolute -bottom-8 -left-8 z-[-1]">
                                         <svg

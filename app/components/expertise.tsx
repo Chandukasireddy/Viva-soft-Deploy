@@ -1,88 +1,86 @@
 import Image from "next/image";
 import hersection from "@/public/herosection.jpg";
 
-import { JSX, SVGProps } from "react";
+import { JSX, FC, SVGProps } from "react";
+interface ExpertiseItemProps {
+    title: string;
+    description: string;
+    Icon: FC<SVGProps<SVGSVGElement>>;
+}
 
 export default function Expertise() {
     return (
-        <div className="overflow-x-hidden">
-            <section className="py-16 px-6 mt-[100px] ml-[-50%] w-[200%] rounded-t-[100%] bg-orange-50">
+        <div className="overflow-x-hidden" id="Services">
+            <section className="py-16 px-6 mt-[100px] w-full bg-orange-50 rounded-t-[10%] lg:rounded-t-[30%]">
                 <h2 className="text-2xl md:text-4xl font-bold mb-8 text-center">
                     Our Expertise
                 </h2>
-                <div className="container grid grid-cols-1 gap-8 sm:grid-cols-1 lg:grid-cols-3">
-                    <div className=" flex flex-col items-center gap-4 rounded-lg bg-background p-6 text-center shadow-sm transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg">
-                        <div className="rounded-full bg-primary p-3">
-                            <CpuIcon className="h-6 w-6 text-primary-foreground" />
-                        </div>
-                        <h3 className="text-xl font-semibold">
-                            Software Development
-                        </h3>
-                        <p className="text-muted-foreground">
-                            Our team of expert developers can bring your
-                            software ideas to life.
-                        </p>
-                    </div>
-                    <div className="flex flex-col items-center gap-4 rounded-lg bg-background p-6 text-center shadow-sm transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg">
-                        <div className="rounded-full bg-primary p-3">
-                            <DatabaseIcon className="h-6 w-6 text-primary-foreground" />
-                        </div>
-                        <h3 className="text-xl font-semibold">
-                            Database Management
-                        </h3>
-                        <p className="text-muted-foreground">
-                            Reliable and scalable database solutions to power
-                            your applications.
-                        </p>
-                    </div>
-                    <div className="flex flex-col items-center gap-4 rounded-lg bg-background p-6 text-center shadow-sm transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg">
-                        <div className="rounded-full bg-primary p-3">
-                            <CloudIcon className="h-6 w-6 text-primary-foreground" />
-                        </div>
-                        <h3 className="text-xl font-semibold">
-                            Cloud Infrastructure
-                        </h3>
-                        <p className="text-muted-foreground">
-                            Leverage the power of the cloud to scale your
-                            business effortlessly.
-                        </p>
-                    </div>
-                    <div className="flex flex-col items-center gap-4 rounded-lg bg-background p-6 text-center shadow-sm transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg">
-                        <div className="rounded-full bg-primary p-3">
-                            <MonitorIcon className="h-6 w-6 text-primary-foreground" />
-                        </div>
-                        <h3 className="text-xl font-semibold">Web Design</h3>
-                        <p className="text-muted-foreground">
-                            Crafting visually stunning and user-friendly
-                            websites.
-                        </p>
-                    </div>
-                    <div className="flex flex-col items-center gap-4 rounded-lg bg-background p-6 text-center shadow-sm transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg">
-                        <div className="rounded-full bg-primary p-3">
-                            <BriefcaseIcon className="h-6 w-6 text-primary-foreground" />
-                        </div>
-                        <h3 className="text-xl font-semibold">Consulting</h3>
-                        <p className="text-muted-foreground">
-                            Providing expert guidance to help your business
-                            succeed.
-                        </p>
-                    </div>
-                    <div className="flex flex-col items-center gap-4 rounded-lg bg-background p-6 text-center shadow-sm transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg">
-                        <div className="rounded-full bg-primary p-3">
-                            <HeadphonesIcon className="h-6 w-6 text-primary-foreground" />
-                        </div>
-                        <h3 className="text-xl font-semibold">
-                            Customer Support
-                        </h3>
-                        <p className="text-muted-foreground">
-                            Dedicated support to ensure your satisfaction.
-                        </p>
-                    </div>
+                <div className="container mx-auto grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 px-4">
+                    {expertiseItems.map((item, index) => (
+                        <ExpertiseItem
+                            key={index}
+                            title={item.title}
+                            description={item.description}
+                            Icon={item.Icon}
+                        />
+                    ))}
                 </div>
             </section>
         </div>
     );
 }
+
+const ExpertiseItem: FC<ExpertiseItemProps> = ({
+    title,
+    description,
+    Icon,
+}) => {
+    return (
+        <div className="flex flex-col items-center gap-4 rounded-lg bg-white p-6 text-center shadow-sm transition-transform duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg">
+            <div className="rounded-full bg-primary p-3">
+                <Icon className="h-6 w-6 text-primary-foreground" />
+            </div>
+            <h3 className="text-xl font-semibold">{title}</h3>
+            <p className="text-muted-foreground">{description}</p>
+        </div>
+    );
+};
+
+const expertiseItems = [
+    {
+        title: "Software Development",
+        description:
+            "Our team of expert developers can bring your software ideas to life.",
+        Icon: CpuIcon,
+    },
+    {
+        title: "Database Management",
+        description:
+            "Reliable and scalable database solutions to power your applications.",
+        Icon: DatabaseIcon,
+    },
+    {
+        title: "Cloud Infrastructure",
+        description:
+            "Leverage the power of the cloud to scale your business effortlessly.",
+        Icon: CloudIcon,
+    },
+    {
+        title: "Web Design",
+        description: "Crafting visually stunning and user-friendly websites.",
+        Icon: MonitorIcon,
+    },
+    {
+        title: "Consulting",
+        description: "Providing expert guidance to help your business succeed.",
+        Icon: BriefcaseIcon,
+    },
+    {
+        title: "Customer Support",
+        description: "Dedicated support to ensure your satisfaction.",
+        Icon: HeadphonesIcon,
+    },
+];
 
 function BriefcaseIcon(
     props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>
