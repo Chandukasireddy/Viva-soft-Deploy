@@ -13,7 +13,7 @@ export default function Expertise() {
         <div className="overflow-x-hidden" id="Services">
             <section className="py-16 px-6 mt-[100px] w-full bg-orange-50 rounded-t-[10%] lg:rounded-t-[30%]">
                 <h2 className="text-2xl md:text-4xl font-bold mb-8 text-center">
-                    Our Expertise
+                    Our Services
                 </h2>
                 <div className="container mx-auto grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 px-4">
                     {expertiseItems.map((item, index) => (

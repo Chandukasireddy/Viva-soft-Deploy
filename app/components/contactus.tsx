@@ -70,7 +70,10 @@ export default function Contactus() {
                                         className="min-h-[120px]"
                                     />
                                 </div>
-                                <Button type="submit" className="w-full">
+                                <Button
+                                    type="submit"
+                                    className="w-full"
+                                >
                                     Submit
                                 </Button>
                             </form>
