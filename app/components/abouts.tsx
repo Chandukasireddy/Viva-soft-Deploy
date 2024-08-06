@@ -41,6 +41,11 @@ export default function Aboutus() {
                         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-9">
                             <div className="lg:pr-24 flex items-center">
                                 <div className="data w-full">
+                                    <Image
+                                        src={herosection}
+                                        alt="About Us tailwind page"
+                                        className="block lg:hidden mb-9 mx-auto rounded-xl"
+                                    />
                                     <h2 className="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center">
                                         We are Creative Since 2005
                                     </h2>
