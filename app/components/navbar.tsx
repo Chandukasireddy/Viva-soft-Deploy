@@ -40,13 +40,20 @@ export default function Navbar() {
                     >
                         Services
                     </Link>
-                    {/* <Link
+                    <Link
+                        href="#Projects"
+                        className="hover:underline underline-offset-4 decoration-[#EB5E28]"
+                        prefetch={false}
+                    >
+                        Projects
+                    </Link>
+                    <Link
                         href="#Testimonials"
                         className="hover:underline underline-offset-4 decoration-[#EB5E28]"
                         prefetch={false}
                     >
                         Testimonials
-                    </Link> */}
+                    </Link>
                     <Link
                         href="#Careers"
                         className="hover:underline underline-offset-4 decoration-[#EB5E28]"
@@ -83,13 +90,20 @@ export default function Navbar() {
                             >
                                 Services
                             </Link>
-                            {/* <Link
-                        href="#Testimonials"
-                        className="hover:underline underline-offset-4 decoration-[#EB5E28]"
-                        prefetch={false}
-                    >
-                        Testimonials
-                    </Link> */}
+                            <Link
+                                href="#Projects"
+                                className="hover:underline underline-offset-4 decoration-[#EB5E28]"
+                                prefetch={false}
+                            >
+                                Projects
+                            </Link>
+                            <Link
+                                href="#Testimonials"
+                                className="hover:underline underline-offset-4 decoration-[#EB5E28]"
+                                prefetch={false}
+                            >
+                                Testimonials
+                            </Link>
                             <Link
                                 href="#Careers"
                                 className="hover:underline underline-offset-4 decoration-[#EB5E28]"

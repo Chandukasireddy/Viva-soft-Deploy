@@ -1,6 +1,9 @@
 export default function Careers() {
     return (
-        <div className="flex flex-col items-center bg-orange-50 w-full p-4" id="Careers">
+        <div
+            className="flex flex-col items-center bg-orange-50 w-full p-4"
+            id="Careers"
+        >
             <header className="text-center">
                 <p className="text-sm font-bold text-[#EB5E28]">
                     WE ARE HIRING
@@ -19,8 +22,11 @@ export default function Careers() {
                             Remote/NY · Full-time
                         </p>
                     </div>
-                    <a href="#" className="text-[#EB5E28] hover:underline">
-                        See Details <span aria-hidden="true">→</span>
+                    <a
+                        href="#Contactus"
+                        className="text-[#EB5E28] hover:underline"
+                    >
+                        Contact <span aria-hidden="true">→</span>
                     </a>
                 </div>
                 <div className="flex items-center justify-between p-4 bg-white rounded-md">
@@ -30,8 +36,11 @@ export default function Careers() {
                             Remote/NY · Full-time
                         </p>
                     </div>
-                    <a href="#" className="text-[#EB5E28] hover:underline">
-                        See Details <span aria-hidden="true">→</span>
+                    <a
+                        href="#Contactus"
+                        className="text-[#EB5E28] hover:underline"
+                    >
+                        Contact <span aria-hidden="true">→</span>
                     </a>
                 </div>
                 <div className="flex items-center justify-between p-4 bg-white rounded-md">
@@ -43,8 +52,11 @@ export default function Careers() {
                             Remote/NY · Full-time
                         </p>
                     </div>
-                    <a href="#" className="text-[#EB5E28] hover:underline">
-                        See Details <span aria-hidden="true">→</span>
+                    <a
+                        href="#Contactus"
+                        className="text-[#EB5E28] hover:underline"
+                    >
+                        Contact <span aria-hidden="true">→</span>
                     </a>
                 </div>
                 <div className="flex items-center justify-between p-4 bg-white rounded-md">
@@ -54,8 +66,11 @@ export default function Careers() {
                             Remote/NY · Full-time
                         </p>
                     </div>
-                    <a href="#" className="text-[#EB5E28] hover:underline">
-                        See Details <span aria-hidden="true">→</span>
+                    <a
+                        href="#Contactus"
+                        className="text-[#EB5E28] hover:underline"
+                    >
+                        Contact <span aria-hidden="true">→</span>
                     </a>
                 </div>
                 <div className="flex items-center justify-between p-4 bg-white rounded-md">
@@ -67,8 +82,11 @@ export default function Careers() {
                             Remote/NY · Full-time
                         </p>
                     </div>
-                    <a href="#" className="text-[#EB5E28] hover:underline">
-                        See Details <span aria-hidden="true">→</span>
+                    <a
+                        href="#Contactus"
+                        className="text-[#EB5E28] hover:underline"
+                    >
+                        Contact <span aria-hidden="true">→</span>
                     </a>
                 </div>
             </main>

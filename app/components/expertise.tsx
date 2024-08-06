@@ -48,30 +48,30 @@ const ExpertiseItem: FC<ExpertiseItemProps> = ({
 
 const expertiseItems = [
     {
-        title: "Software Development",
+        title: "App Development",
         description:
             "Our team of expert developers can bring your software ideas to life.",
         Icon: CpuIcon,
     },
     {
-        title: "Database Management",
+        title: "DevOps",
         description:
             "Reliable and scalable database solutions to power your applications.",
         Icon: DatabaseIcon,
     },
     {
-        title: "Cloud Infrastructure",
+        title: "Cloud Technologiest",
         description:
             "Leverage the power of the cloud to scale your business effortlessly.",
         Icon: CloudIcon,
     },
     {
-        title: "Web Design",
+        title: "SharePoint",
         description: "Crafting visually stunning and user-friendly websites.",
         Icon: MonitorIcon,
     },
     {
-        title: "Consulting",
+        title: "Big Data",
         description: "Providing expert guidance to help your business succeed.",
         Icon: BriefcaseIcon,
     },

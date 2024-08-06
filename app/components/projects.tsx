@@ -27,13 +27,13 @@ export default function Projects() {
                             retail brand, driving a 25% increase in online
                             sales.
                         </p>
-                        <Link
+                        {/* <Link
                             href="#"
                             className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
                             prefetch={false}
                         >
                             View Case Study
-                        </Link>
+                        </Link> */}
                     </div>
                     <div className="bg-background p-6 rounded-lg shadow-lg transition-all duration-300 hover:scale-105">
                         <Image
@@ -51,13 +51,13 @@ export default function Projects() {
                             for a leading healthcare provider, improving patient
                             engagement by 35%.
                         </p>
-                        <Link
+                        {/* <Link
                             href="#"
                             className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
                             prefetch={false}
                         >
                             View Case Study
-                        </Link>
+                        </Link> */}
                     </div>
                     <div className="bg-background p-6 rounded-lg shadow-lg transition-all duration-300 hover:scale-105">
                         <Image
@@ -75,13 +75,13 @@ export default function Projects() {
                             for a leading healthcare provider, improving patient
                             engagement by 35%.
                         </p>
-                        <Link
+                        {/* <Link
                             href="#"
                             className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
                             prefetch={false}
                         >
                             View Case Study
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
             </div>

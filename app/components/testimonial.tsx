@@ -23,24 +23,23 @@ export default function Testimonail() {
                                 <div className="flex items-center mb-4">
                                     <Avatar>
                                         <AvatarImage src="/placeholder-user.jpg" />
-                                        <AvatarFallback>JD</AvatarFallback>
+                                        <AvatarFallback>SJ</AvatarFallback>
                                     </Avatar>
                                     <div className="ml-4">
                                         <h4 className="text-lg font-bold">
-                                            John Doe
+                                            Srihitha
                                         </h4>
                                         <p className="text-muted-foreground">
-                                            CEO, Acme Inc.
+                                            CEO, Trechon Inc.
                                         </p>
                                     </div>
                                 </div>
                                 <p className="text-muted-foreground">
-                                    VIVA Soft Technologies has been an
-                                    invaluable partner in\n helping us transform
-                                    our digital presence. Their teams\n
-                                    expertise and dedication have been
-                                    instrumental in driving\n our business
-                                    forward.
+                                    VIVA Soft Technologies exceeded our
+                                    expectations with their app development
+                                    services. Their innovative solutions and
+                                    seamless user interface design have
+                                    transformed our business.
                                 </p>
                             </div>
                         </CarouselItem>
@@ -49,24 +48,23 @@ export default function Testimonail() {
                                 <div className="flex items-center mb-4">
                                     <Avatar>
                                         <AvatarImage src="/placeholder-user.jpg" />
-                                        <AvatarFallback>JD</AvatarFallback>
+                                        <AvatarFallback>AG</AvatarFallback>
                                     </Avatar>
                                     <div className="ml-4">
                                         <h4 className="text-lg font-bold">
-                                            John Doe
+                                            Akash Gundapuneni
                                         </h4>
                                         <p className="text-muted-foreground">
-                                            CEO, Acme Inc.
+                                            CTO, Graspins Innovations Inc.
                                         </p>
                                     </div>
                                 </div>
                                 <p className="text-muted-foreground">
-                                    VIVA Soft Technologies has been an
-                                    invaluable partner in\n helping us transform
-                                    our digital presence. Their teams\n
-                                    expertise and dedication have been
-                                    instrumental in driving\n our business
-                                    forward.
+                                    Partnering with VIVA Soft Technologies for
+                                    our DevOps needs was a game-changer. Their
+                                    expertise in continuous integration and
+                                    delivery has significantly improved our
+                                    workflow efficiency.
                                 </p>
                             </div>
                         </CarouselItem>

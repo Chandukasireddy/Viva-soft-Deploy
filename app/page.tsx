@@ -15,8 +15,8 @@ export default function Home() {
             <Herosection />
             <Aboutus />
             <Expertise />
-            {/* <Projects /> */}
-            {/* <Testimonail /> */}
+            <Projects />
+            <Testimonail />
             <Careers />
             <Contactus />
             <Footer />

@@ -28,10 +28,10 @@ export default function Herosection() {
                                 <ul className="flex flex-wrap items-center">
                                     <li>
                                         <a
-                                            href="/#"
+                                            href="#Contactus"
                                             className="inline-flex items-center justify-center rounded-md bg-[#EB5E28] px-6 py-3 text-center text-base font-medium text-white hover:bg-[#EB5E28]/90 lg:px-7"
                                         >
-                                            Get Started
+                                            Work With Us
                                         </a>
                                     </li>
                                 </ul>

@@ -74,7 +74,7 @@ export default function Footer() {
                                     Services
                                 </Link>
                             </li>
-                            {/* <li>
+                            <li>
                                 <Link
                                     href="#Projects"
                                     className="hover:text-primary"
@@ -82,8 +82,8 @@ export default function Footer() {
                                 >
                                     Projects
                                 </Link>
-                            </li> */}
-                            {/* <li>
+                            </li>
+                            <li>
                                 <Link
                                     href="#Testimonials"
                                     className="hover:text-primary"
@@ -91,7 +91,7 @@ export default function Footer() {
                                 >
                                     Testimonials
                                 </Link>
-                            </li> */}
+                            </li>
                             <li>
                                 <Link
                                     href="#Careers"
@@ -103,7 +103,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <Link
-                                    href="#"
+                                    href="#Contactus"
                                     className="hover:text-primary"
                                     prefetch={false}
                                 >
@@ -117,52 +117,52 @@ export default function Footer() {
                         <ul className="space-y-2">
                             <li>
                                 <Link
-                                    href="#"
+                                    href="#Services"
                                     className="hover:text-primary"
                                     prefetch={false}
                                 >
-                                    Web Development
+                                    App Development
                                 </Link>
                             </li>
                             <li>
                                 <Link
-                                    href="#"
+                                    href="#Services"
                                     className="hover:text-primary"
                                     prefetch={false}
                                 >
-                                    Software Engineering
+                                    DevOps
                                 </Link>
                             </li>
                             <li>
                                 <Link
-                                    href="#"
+                                    href="#Services"
                                     className="hover:text-primary"
                                     prefetch={false}
                                 >
-                                    Database Management
+                                    Cloud Technologiest
                                 </Link>
                             </li>
                             <li>
                                 <Link
-                                    href="#"
+                                    href="#Services"
                                     className="hover:text-primary"
                                     prefetch={false}
                                 >
-                                    Cloud Infrastructure
+                                    SharePoint
                                 </Link>
                             </li>
                             <li>
                                 <Link
-                                    href="#"
+                                    href="#Services"
                                     className="hover:text-primary"
                                     prefetch={false}
                                 >
-                                    Consulting
+                                    Big Data
                                 </Link>
                             </li>
                             <li>
                                 <Link
-                                    href="#"
+                                    href="#Services"
                                     className="hover:text-primary"
                                     prefetch={false}
                                 >
