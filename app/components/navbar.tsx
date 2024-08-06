@@ -27,26 +27,26 @@ export default function Navbar() {
                 </div>
                 <nav className="hidden lg:flex gap-6 font-bold items-center">
                     <Link
+                        href="#Aboutus"
+                        className="hover:underline underline-offset-4 decoration-[#EB5E28]"
+                        prefetch={false}
+                    >
+                        About
+                    </Link>
+                    <Link
                         href="#Services"
                         className="hover:underline underline-offset-4 decoration-[#EB5E28]"
                         prefetch={false}
                     >
                         Services
                     </Link>
-                    <Link
-                        href="#Projects"
-                        className="hover:underline underline-offset-4 decoration-[#EB5E28]"
-                        prefetch={false}
-                    >
-                        Projects
-                    </Link>
-                    <Link
+                    {/* <Link
                         href="#Testimonials"
                         className="hover:underline underline-offset-4 decoration-[#EB5E28]"
                         prefetch={false}
                     >
                         Testimonials
-                    </Link>
+                    </Link> */}
                     <Link
                         href="#Careers"
                         className="hover:underline underline-offset-4 decoration-[#EB5E28]"
@@ -70,26 +70,26 @@ export default function Navbar() {
                     <SheetContent side="left" className="w-[80vw] lg:hidden">
                         <div className="flex flex-col gap-4 p-6">
                             <Link
+                                href="#Aboutus"
+                                className="hover:underline underline-offset-4 decoration-[#EB5E28]"
+                                prefetch={false}
+                            >
+                                About
+                            </Link>
+                            <Link
                                 href="#Services"
                                 className="hover:underline underline-offset-4 decoration-[#EB5E28]"
                                 prefetch={false}
                             >
                                 Services
                             </Link>
-                            <Link
-                                href="#Projects"
-                                className="hover:underline underline-offset-4 decoration-[#EB5E28]"
-                                prefetch={false}
-                            >
-                                Projects
-                            </Link>
-                            <Link
-                                href="#Testimonials"
-                                className="hover:underline underline-offset-4 decoration-[#EB5E28]"
-                                prefetch={false}
-                            >
-                                Testimonials
-                            </Link>
+                            {/* <Link
+                        href="#Testimonials"
+                        className="hover:underline underline-offset-4 decoration-[#EB5E28]"
+                        prefetch={false}
+                    >
+                        Testimonials
+                    </Link> */}
                             <Link
                                 href="#Careers"
                                 className="hover:underline underline-offset-4 decoration-[#EB5E28]"

@@ -56,7 +56,15 @@ export default function Footer() {
                                     Home
                                 </Link>
                             </li>
-
+                            <li>
+                                <Link
+                                    href="#Aboutus"
+                                    className="hover:text-primary"
+                                    prefetch={false}
+                                >
+                                    About
+                                </Link>
+                            </li>
                             <li>
                                 <Link
                                     href="#Services"
@@ -66,7 +74,7 @@ export default function Footer() {
                                     Services
                                 </Link>
                             </li>
-                            <li>
+                            {/* <li>
                                 <Link
                                     href="#Projects"
                                     className="hover:text-primary"
@@ -74,8 +82,8 @@ export default function Footer() {
                                 >
                                     Projects
                                 </Link>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                                 <Link
                                     href="#Testimonials"
                                     className="hover:text-primary"
@@ -83,7 +91,7 @@ export default function Footer() {
                                 >
                                     Testimonials
                                 </Link>
-                            </li>
+                            </li> */}
                             <li>
                                 <Link
                                     href="#Careers"

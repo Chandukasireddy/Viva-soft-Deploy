@@ -11,7 +11,7 @@ interface ExpertiseItemProps {
 export default function Expertise() {
     return (
         <div className="overflow-x-hidden" id="Services">
-            <section className="py-16 px-6 mt-[100px] w-full bg-orange-50 rounded-t-[10%] lg:rounded-t-[30%]">
+            <section className="py-16 px-6 bg-orange-50">
                 <h2 className="text-2xl md:text-4xl font-bold mb-8 text-center">
                     Our Services
                 </h2>

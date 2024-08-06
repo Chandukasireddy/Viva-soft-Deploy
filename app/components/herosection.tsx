@@ -7,7 +7,7 @@ import { JSX, SVGProps } from "react";
 export default function Herosection() {
     return (
         <div className="">
-            <div className="relative pb-[110px] pt-[120px] dark:bg-dark lg:pt-[150px]">
+            <div className="relative pb-[110px] pt-[120px] dark:bg-dark lg:pt-[150px] ">
                 <div className="container">
                     <div className="-mx-4 flex flex-wrap">
                         <div className="w-full px-10 lg:w-5/12">
@@ -36,10 +36,10 @@ export default function Herosection() {
                                     </li>
                                 </ul>
                                 <div className="clients pt-10">
-                                    <h6 className="mb-6 flex items-center text-xs font-normal text-body-color dark:text-dark-6">
+                                    {/* <h6 className="mb-6 flex items-center text-xs font-normal text-body-color dark:text-dark-6">
                                         Some Of Our Clients
                                         <span className="ml-3 inline-block h-px w-8 bg-body-color"></span>
-                                    </h6>
+                                    </h6> */}
 
                                     <div className="flex items-center space-x-4">
                                         <Image
