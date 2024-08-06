@@ -25,7 +25,7 @@ export default function Navbar() {
                         </span>
                     </Link>
                 </div>
-                <nav className="hidden md:flex gap-6 font-bold items-center">
+                <nav className="hidden lg:flex gap-6 font-bold items-center">
                     <Link
                         href="#Services"
                         className="hover:underline underline-offset-4 decoration-[#EB5E28]"
@@ -62,12 +62,12 @@ export default function Navbar() {
                 </nav>
                 <Sheet>
                     <SheetTrigger asChild>
-                        <Button variant="outline" className="sm:hidden">
+                        <Button variant="outline" className="lg:hidden">
                             <MenuIcon className="h-6 w-6" />
                             <span className="sr-only">Toggle navigation</span>
                         </Button>
                     </SheetTrigger>
-                    <SheetContent side="left" className="w-[80vw] sm:hidden">
+                    <SheetContent side="left" className="w-[80vw] lg:hidden">
                         <div className="flex flex-col gap-4 p-6">
                             <Link
                                 href="#Services"
