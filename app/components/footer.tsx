@@ -2,42 +2,41 @@ import * as React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { JSX, SVGProps } from "react";
-import logo from "@/public/Viva Soft.svg";
-
+import logo from "@/public/Viva Soft Logo.svg";
 
 export default function Footer() {
     return (
-        <footer className=" text-muted-foreground py-8 px-6 ">
+        <footer className=" py-8 px-6 ">
             <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
                 <div className="">
                     <Image
                         src={logo}
                         alt="vivasoft logo"
-                        className="w-12 h-12 my-3"
+                        className="w-16 h-16 my-3"
                     />
 
-                    <h3 className="text-xl font-bold mb-4">
+                    <a className="text-xl font-bold mb-4" href="#">
                         VIVA Soft Technologies
-                    </h3>
+                    </a>
 
                     <div className="flex gap-4">
                         <Link
                             href="#"
-                            className="text-muted-foreground hover:text-primary"
+                            className="hover:text-primary"
                             prefetch={false}
                         >
                             <TwitterIcon className="h-6 w-6" />
                         </Link>
                         <Link
                             href="#"
-                            className="text-muted-foreground hover:text-primary"
+                            className="hover:text-primary"
                             prefetch={false}
                         >
                             <LinkedinIcon className="h-6 w-6" />
                         </Link>
                         <Link
                             href="#"
-                            className="text-muted-foreground hover:text-primary"
+                            className="hover:text-primary"
                             prefetch={false}
                         >
                             <GitlabIcon className="h-6 w-6" />
@@ -87,6 +86,15 @@ export default function Footer() {
                             </li>
                             <li>
                                 <Link
+                                    href="#Careers"
+                                    className="hover:text-primary"
+                                    prefetch={false}
+                                >
+                                    Careers
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
                                     href="#"
                                     className="hover:text-primary"
                                     prefetch={false}
@@ -123,7 +131,7 @@ export default function Footer() {
                                     className="hover:text-primary"
                                     prefetch={false}
                                 >
-                                    Cloud Services
+                                    Database Management
                                 </Link>
                             </li>
                             <li>
@@ -132,7 +140,25 @@ export default function Footer() {
                                     className="hover:text-primary"
                                     prefetch={false}
                                 >
-                                    Cybersecurity
+                                    Cloud Infrastructure
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    href="#"
+                                    className="hover:text-primary"
+                                    prefetch={false}
+                                >
+                                    Consulting
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    href="#"
+                                    className="hover:text-primary"
+                                    prefetch={false}
+                                >
+                                    Customer Support
                                 </Link>
                             </li>
                         </ul>

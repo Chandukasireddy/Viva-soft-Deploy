@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { JSX, SVGProps } from "react";
-import logo from "@/public/Viva Soft.svg";
+import logo from "@/public/Viva Soft Logo.svg";
 
 export default function Navbar() {
     return (
