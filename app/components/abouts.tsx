@@ -21,15 +21,8 @@ export default function Aboutus() {
                                     <h2 className="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
                                         About Us
                                     </h2>
-                                    <p className="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                                        Driven by a passion for seamless user
-                                        experiences, weve meticulously curated
-                                        pagedone to empower creators, designers,
-                                        and developers alike. Our mission is to
-                                        provide a comprehensive toolkit,
-                                        enabling you to build intuitive,
-                                        beautiful interfaces that resonate with
-                                        users on every interaction.
+                                    <p className="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto text-justify">
+                                    At Viva Soft Technologies, we specialize in delivering cutting-edge IT solutions tailored to your business needs. Our dedicated team has been committed to innovation and excellence. Partner with us to elevate your digital presence and drive success.
                                     </p>
                                 </div>
                             </div>
@@ -47,18 +40,10 @@ export default function Aboutus() {
                                         className="block lg:hidden mb-9 mx-auto rounded-xl"
                                     />
                                     <h2 className="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center">
-                                        We are Creative Since 2005
+                                    Expert IT Solutions
                                     </h2>
-                                    <p className="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                                        Pagedone isn’t just a collection of
-                                        components and guidelines; its a
-                                        philosophy. We go beyond aesthetics,
-                                        prioritizing accessibility, scalability,
-                                        and usability. Every element, from the
-                                        tiniest detail to the grandest layout,
-                                        is meticulously crafted to enhance
-                                        functionality and elevate user
-                                        satisfaction.
+                                    <p className="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto text-justify">
+                                    Our team of experts is dedicated to providing top-notch IT solutions that are both innovative and reliable. We work closely with our clients to understand their unique challenges and deliver customized solutions that drive growth and efficiency.
                                     </p>
                                 </div>
                             </div>

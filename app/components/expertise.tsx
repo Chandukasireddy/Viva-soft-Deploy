@@ -12,10 +12,10 @@ export default function Expertise() {
     return (
         <div className="overflow-x-hidden" id="Services">
             <section className="py-16 px-6 bg-orange-50">
-                <h2 className="text-2xl md:text-4xl font-bold mb-8 text-center">
+                <h2 className="text-2xl md:text-4xl font-bold mb-8 text-center ">
                     Our Services
                 </h2>
-                <div className="container mx-auto grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 px-4">
+                <div className="container mx-auto grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 px-4 ">
                     {expertiseItems.map((item, index) => (
                         <ExpertiseItem
                             key={index}
@@ -40,8 +40,8 @@ const ExpertiseItem: FC<ExpertiseItemProps> = ({
             <div className="rounded-full bg-primary p-3">
                 <Icon className="h-6 w-6 text-primary-foreground" />
             </div>
-            <h3 className="text-xl font-semibold">{title}</h3>
-            <p className="text-muted-foreground">{description}</p>
+            <h3 className="text-xl font-semibold ">{title}</h3>
+            <p className="text-muted-foreground text-justify line-clamp-3">{description}</p>
         </div>
     );
 };
@@ -50,34 +50,34 @@ const expertiseItems = [
     {
         title: "App Development",
         description:
-            "Our team of expert developers can bring your software ideas to life.",
+            "Got a great idea for an app? We’ll bring it to life with a custom-built solution that’s easy to use and designed just for you.",
         Icon: CpuIcon,
     },
     {
         title: "DevOps",
         description:
-            "Reliable and scalable database solutions to power your applications.",
+            "Streamline your operations with our DevOps solutions, designed to enhance collaboration and efficiency. We help you automate and optimize your development and deployment processes.",
         Icon: DatabaseIcon,
     },
     {
-        title: "Cloud Technologiest",
+        title: "Cloud Technologies",
         description:
-            "Leverage the power of the cloud to scale your business effortlessly.",
+            "Looking for flexible and secure cloud solutions? We’ll set up your cloud services so you can access your data anytime, anywhere.",
         Icon: CloudIcon,
     },
     {
         title: "SharePoint",
-        description: "Crafting visually stunning and user-friendly websites.",
+        description: "Improve teamwork and document management with our SharePoint services. We set up and customize SharePoint to fit your business's unique requirements.",
         Icon: MonitorIcon,
     },
     {
         title: "Big Data",
-        description: "Providing expert guidance to help your business succeed.",
+        description: "Ready to make sense of your data? Our Big Data services turn complex information into clear insights that help you make smart decisions.",
         Icon: BriefcaseIcon,
     },
     {
         title: "Customer Support",
-        description: "Dedicated support to ensure your satisfaction.",
+        description: "Deliver exceptional service with our comprehensive customer support solutions. We ensure your clients receive timely and effective assistance, enhancing their experience.",
         Icon: HeadphonesIcon,
     },
 ];

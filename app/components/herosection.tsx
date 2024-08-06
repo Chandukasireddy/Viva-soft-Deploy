@@ -13,12 +13,13 @@ export default function Herosection() {
                         <div className="w-full px-10 lg:w-5/12">
                             <div className="hero-content">
                                 <h1 className="mb-5 text-4xl font-bold !leading-[1.208] text-dark dark:text-white sm:text-[42px] lg:text-[40px] xl:text-5xl">
-                                    Kickstart Journey with{" "}
+                                    Innovate.{" "}<br/>
                                     <span className="text-[#EB5E28]">
-                                        Viva Soft
-                                    </span>
+                                        Transform.
+                                    </span><br/>
+                                    Succeed.
                                 </h1>
-                                <p className="mb-8 max-w-[480px] text-base text-body-color dark:text-dark-6">
+                                <p className="mb-8 max-w-[480px] text-base text-body-color dark:text-dark-6 text-justify">
                                     Viva Soft Technologies provides tailored IT
                                     solutions to enhance business efficiency and
                                     growth. Our services include software

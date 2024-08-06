@@ -20,12 +20,10 @@ export default function Projects() {
                             className="rounded-lg mb-4 object-cover"
                         />
                         <h3 className="text-xl font-bold mb-2">
-                            E-commerce Platform
+                        Document Management System
                         </h3>
-                        <p className="text-muted-foreground mb-4">
-                            Developed a robust e-commerce platform for a leading
-                            retail brand, driving a 25% increase in online
-                            sales.
+                        <p className="text-muted-foreground mb-4 text-justify line-clamp-4">
+                        We created a tailored SharePoint solution for LegalEagle Associates to securely manage and share legal documents. This system improved their workflow, making it easier for their team to access and collaborate on important files.
                         </p>
                         {/* <Link
                             href="#"
@@ -46,10 +44,8 @@ export default function Projects() {
                         <h3 className="text-xl font-bold mb-2">
                             Mobile App Development
                         </h3>
-                        <p className="text-muted-foreground mb-4">
-                            Designed and developed a user-friendly mobile app
-                            for a leading healthcare provider, improving patient
-                            engagement by 35%.
+                        <p className="text-muted-foreground mb-4 text-justify line-clamp-4">
+                        We developed a mobile app for BistroBites that lets customers place orders, customize their meals, and pay directly from their smartphones. The app streamlines the ordering process and boosts customer satisfaction for the restaurant chain.
                         </p>
                         {/* <Link
                             href="#"
@@ -68,12 +64,10 @@ export default function Projects() {
                             className="rounded-lg mb-4 object-cover"
                         />
                         <h3 className="text-xl font-bold mb-2">
-                            Mobile App Development
+                        Customer Insights Dashboard
                         </h3>
-                        <p className="text-muted-foreground mb-4">
-                            Designed and developed a user-friendly mobile app
-                            for a leading healthcare provider, improving patient
-                            engagement by 35%.
+                        <p className="text-muted-foreground mb-4 text-justify line-clamp-4">
+                        We developed a Big Data dashboard for TrendyMart Retailers that analyzes customer behavior and sales trends. The dashboard delivers valuable insights, helping the company make informed decisions on marketing and inventory.
                         </p>
                         {/* <Link
                             href="#"
