@@ -41,7 +41,7 @@ export default function Herosection() {
                                         <span className="ml-3 inline-block h-px w-8 bg-body-color"></span>
                                     </h6> */}
 
-                                    <div className="flex items-center space-x-4">
+                                    {/* <div className="flex items-center space-x-4">
                                         <Image
                                             src={hersection}
                                             alt="hero"
@@ -57,7 +57,7 @@ export default function Herosection() {
                                             alt="hero"
                                             className="w-16 rounded-xl"
                                         />
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
