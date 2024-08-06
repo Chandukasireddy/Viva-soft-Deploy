@@ -13,7 +13,7 @@ export default function Testimonail() {
     return (
         <section className="py-16 px-4 bg-orange-50 " id="Testimonials">
             <div className="max-w-xs md:max-w-2xl lg:max-w-6xl mx-auto">
-                <h2 className="text-3xl font-bold mb-8">
+                <h2 className="text-2xl md:text-4xl font-bold mb-8 text-center">
                     What Our Clients Say
                 </h2>
                 <Carousel className="w-full">

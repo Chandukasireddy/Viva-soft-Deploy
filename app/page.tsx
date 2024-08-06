@@ -5,6 +5,7 @@ import Testimonail from '@/app/components/testimonial';
 import Projects from '@/app/components/projects';
 import Footer from '@/app/components/footer';
 import Contactus from "./components/contactus";
+import Careers from "./components/careers";
 
 export default function Home() {
     return (
@@ -14,6 +15,8 @@ export default function Home() {
             <Expertise />
             <Projects />
             <Testimonail />
+            <Careers />
+
             <Contactus />
             <Footer />
         </div>
