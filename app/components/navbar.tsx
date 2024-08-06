@@ -8,7 +8,7 @@ import logo from "@/public/Viva Soft.svg";
 export default function Navbar() {
     return (
         <div className="flex flex-col shadow-lg">
-            <header className="text-black py-6 px-6 md:px-20 lg:px-40 flex items-center justify-between ">
+            <header className="text-black py-6 px-6 md:px-16 lg:px-28 flex items-center justify-between ">
                 <div className="flex flex-row gap-4">
                     <Image
                         src={logo}
