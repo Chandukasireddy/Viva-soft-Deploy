@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import hersection from "@/public/herosection.jpg";
+import hersection from "@/hero-sec-image.jpg";
 
 import { JSX, SVGProps } from "react";
 

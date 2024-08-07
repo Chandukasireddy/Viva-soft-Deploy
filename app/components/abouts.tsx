@@ -1,7 +1,7 @@
 import * as React from "react";
 import Image from "next/image";
 import herosection from "@/public/herosection.jpg";
-
+import expert from "@/expert-image.jpg"
 export default function Aboutus() {
     return (
         <div className="overflow-x-hidden" id="Aboutus">
@@ -49,7 +49,7 @@ export default function Aboutus() {
                             </div>
                             <div className="img-box">
                                 <Image
-                                    src={herosection}
+                                    src={expert}
                                     alt="About Us tailwind page"
                                     className="hidden lg:block rounded-xl"
                                 />

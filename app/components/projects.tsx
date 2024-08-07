@@ -2,6 +2,10 @@ import * as React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import hersection from "@/public/herosection.jpg";
+import cid from "@/cid-im.jpg"
+import mad from "@/mad-im.jpg"
+import dms from "@/dms-im.jpg"
+
 
 export default function Projects() {
     return (
@@ -13,7 +17,7 @@ export default function Projects() {
                 <div className="grid md:grid-cols-3 gap-8">
                     <div className="bg-background p-6 rounded-lg shadow-lg transition-all duration-300 hover:scale-105">
                         <Image
-                            src={hersection}
+                            src={dms}
                             alt="Project 1"
                             width={600}
                             height={400}
@@ -35,7 +39,7 @@ export default function Projects() {
                     </div>
                     <div className="bg-background p-6 rounded-lg shadow-lg transition-all duration-300 hover:scale-105">
                         <Image
-                            src={hersection}
+                            src={mad}
                             alt="Project 2"
                             width={600}
                             height={400}
@@ -57,7 +61,7 @@ export default function Projects() {
                     </div>
                     <div className="bg-background p-6 rounded-lg shadow-lg transition-all duration-300 hover:scale-105">
                         <Image
-                            src={hersection}
+                            src={cid}
                             alt="Project 2"
                             width={600}
                             height={400}
