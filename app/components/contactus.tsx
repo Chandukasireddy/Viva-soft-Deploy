@@ -23,15 +23,26 @@ export default function Contactus() {
                             <div className="space-y-4">
                                 <div className="flex items-center gap-2 justify-center md:justify-start">
                                     <PhoneIcon className="h-6 w-6 text-primary" />
-                                    <span>+1 (555) 555-5555</span>
+                                    <span>+1 603-854-2999</span>
                                 </div>
                                 <div className="flex items-center gap-2 justify-center md:justify-start">
                                     <MailIcon className="h-6 w-6 text-primary" />
-                                    <span>hello@example.com</span>
+                                    <span>hr@vivasofttechnologies.com</span>
                                 </div>
                                 <div className="flex items-center gap-2 justify-center md:justify-start">
                                     <MapPinIcon className="h-6 w-6 text-primary" />
-                                    <span>123 Main St, Anytown USA</span>
+                                    <span>
+                                        1501 Main street, Suit 16, City-
+                                        Tewksbury, MA, 01876.
+                                    </span>
+                                </div>
+                                <div className="flex items-center gap-2 justify-center md:justify-start">
+                                    <MapPinIcon className="h-6 w-6 text-primary" />
+                                    <span>
+                                        8-2-334, N/47, Rd Number 3, Green 
+                                        Valley, Banjara Hills, <br></br>Hyderabad,
+                                        Telangana 500034.
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -70,10 +81,7 @@ export default function Contactus() {
                                         className="min-h-[120px]"
                                     />
                                 </div>
-                                <Button
-                                    type="submit"
-                                    className="w-full"
-                                >
+                                <Button type="submit" className="w-full">
                                     Submit
                                 </Button>
                             </form>
